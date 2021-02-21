@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3385c88-a47f-4e2c-b552-e3f74eeb178d" name="Default Changelist" comment="" />
+    <list default="true" id="c3385c88-a47f-4e2c-b552-e3f74eeb178d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/BJFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/LDFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/PizzaStroe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJGreesPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJMilkPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDGreesPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDMilkPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Cline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/DeepCloneApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,23 +27,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/OrderPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/SimpeFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Apple.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding>
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/DeepCloneApple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#1718#1719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/ObjectInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="417" column="20" lean-forward="true" selection-start-line="417" selection-start-column="20" selection-end-line="417" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Cline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/AbstractFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/BJFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,43 +101,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/PizzaStroe.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/LDFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/pizza/GreesPizza.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDMilkPizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/pizza/Pizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/pizza/MilkPizza.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDGreesPizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <caret line="4" column="48" selection-start-line="3" selection-start-column="30" selection-end-line="4" selection-end-column="48" />
               <folding>
-                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +144,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -98,6 +157,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/PizzaStroe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/OrderPizza.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/SimpeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/MilkPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDGreesPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDMilkPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJMilkPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJGreesPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/BJFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/LDFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/PizzaStroe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Cline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/DeepCloneApple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Apple.java" />
       </list>
     </option>
   </component>
@@ -108,18 +180,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1040" />
+    <option name="height" value="725" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,54 +241,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hym" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactorystudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModelLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModelLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hym" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactorystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModelLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModelLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hym" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactorystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModelLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModelLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hym" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactorystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="SimpeFactory" type="1a9f42e2:ClassTreeNode" />
+              <item name="prototypestudy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611070773538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612527693550" />
+    <property name="last_opened_file_path" value="C:/zhongyou/plink" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaworkplace\DesignModelLearn\src\main\java\com\hym\abstractfactorystudy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +277,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Cline">
+    <configuration name="Cline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hym.prototypestudy.Cline" />
+      <module name="DesignModelLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hym.prototypestudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStroe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hym.abstractfactorystudy.order.PizzaStroe" />
+      <module name="DesignModelLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hym.abstractfactorystudy.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaStroe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hym.simplefactorystudy.order.PizzaStroe" />
       <module name="DesignModelLearn" />
@@ -247,6 +319,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cline" />
+        <item itemvalue="Application.PizzaStroe (1)" />
         <item itemvalue="Application.PizzaStroe" />
       </list>
     </recent_temporary>
@@ -264,12 +338,19 @@
       <workItem from="1610891440354" duration="671000" />
       <workItem from="1611067946573" duration="2618000" />
       <workItem from="1611456947264" duration="1328000" />
-      <workItem from="1611671783813" duration="370000" />
+      <workItem from="1611671783813" duration="2925000" />
+      <workItem from="1611821941842" duration="1441000" />
+      <workItem from="1611824782007" duration="117000" />
+      <workItem from="1611824982053" duration="76000" />
+      <workItem from="1611825549719" duration="17000" />
+      <workItem from="1612106080494" duration="597000" />
+      <workItem from="1612452408630" duration="1922000" />
+      <workItem from="1613916834169" duration="1923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4987000" />
+    <option name="totallyTimeSpent" value="13635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,9 +362,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1550" height="838" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28284183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,17 +374,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44050992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41359773" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,19 +399,51 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/DeepCloneApple.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/OrderPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/PizzaStroe.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -372,6 +486,151 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/GreesPizza.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/MilkPizza.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/simplefactorystudy/order/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/order/PizzaStroe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJMilkPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/BJGreesPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/BJFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/factory/LDFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDMilkPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/abstractfactorystudy/pizza/LDGreesPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="48" selection-start-line="3" selection-start-column="30" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="417" column="20" lean-forward="true" selection-start-line="417" selection-start-column="20" selection-end-line="417" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Cline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/DeepCloneApple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hym/prototypestudy/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
